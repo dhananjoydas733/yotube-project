@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube.com Clone</title>
+    <link rel="stylesheet" href="youtube.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!--Header-->
+    <div class="header">
+        <div class="left-section">
+            <img class="hamburger-menu" src="project Youtube/hamburger-menu.svg" alt="">
+            <img class="youtube-logo" src="project Youtube/youtube-logo.svg" alt="">
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-button">
+                <img class="search-icon" src="project Youtube/search.svg" alt="">
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-search-button">
+                <img class="voice-icon" src="project Youtube/voice-search-icon.svg" alt="">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="right-section">
+            <div class="create-button">
+                <img class="upload-icon" src="project Youtube/upload.svg" alt="">
+                <div class="tooltip">Create</div>
+            </div>
+
+            <div class="youtube-apps-button">
+                <img class="youtube-apps-icon" src="project Youtube/youtube-apps.svg" alt="">
+                <div class="tooltip">YouTube apps</div>
+            </div>
+            
+            <div class="notifications-icon-container">
+                <img class="notification-icon" src="project Youtube/notifications.svg" alt="">
+                <div class="tooltip">Notifications</div>
+                <div class="notification-count">3</div>
+            </div>
+            
+            <div>
+                <img class="current-user-picture" src="project Youtube/my-channel.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- side bar -->
+
+    <button>
+        <div class="sidebar">
+            <div class="sidebar-link">
+                <img src="project Youtube/home.svg" alt="">
+                <div>Home</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="project Youtube/explore.svg" alt="">
+                <div>Explore</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="project Youtube/subscriptions.svg" alt="">
+                <div>Subscriptions</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="project Youtube/originals.svg" alt="">
+                <div>Originals</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="project Youtube/youtube-music.svg" alt="">
+                <div>Youtube Music</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="project Youtube/library.svg" alt="">
+                <div>library</div>
+            </div>
+        </div>
+    </button>
+    
+    <main>
+        <div class="page-grid">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="">
+                    <div class="video-time">14:20</div>
+                </div>
+                <div class="channel-picture-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="thumbnails/profile-1.jpeg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Talking Tech and AI with Google CEO Sundar Pichai!
+                        </p>
+                        <p class="video-author">
+                            Marques Brownlee
+                        </p>
+                        <p class="video-stats">
+                            3.4M views &#183; 6 months ago
+                        </p>
+                    </div>  
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-2.webp" alt="">
+                    <div class="video-time">8:22</div>
+                </div>
+                <div class="channel-picture-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="thumbnails/profile-2.jpeg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Try Not To Laugh Challenge #9
+                        </p>
+                        <p class="video-author">
+                            Markiplier
+                        </p>
+                        <p class="video-stats">
+                            19M views &#183; 4 years ago
+                        </p>
+                    </div>  
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-3.webp" alt="">
+                    <div class="video-time">9:13</div>
+                </div>
+                <div class="channel-picture-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="thumbnails/profile-3.jpeg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Crazy Tik Toks Taken Moments Before DISASTER
+                        </p>
+                        <p class="video-author">
+                            SSSniperWolf
+                        </p>
+                        <p class="video-stats">
+                            12M views &#183; 1 year ago
+                        </p>
+                    </div>  
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-4.webp" alt="">
+                    <div class="video-time">22:09</div>
+                </div>
+                <div class="channel-picture-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="thumbnails/profile-4.jpeg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            The Simplest Math Problem No One Can Solve-Collatz conjecture
+                        </p>
+                        <p class="video-author">
+                            Veritasium
+                        </p>
+                        <p class="video-stats">
+                            18M views &#183; 4 months ago
+                        </p>
+                    </div>  
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-5.webp" alt="">
+                    <div class="video-time">11:17</div>
+                </div>
+                <div class="channel-picture-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="thumbnails/profile-5.jpeg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">    
+                            Kadane's Algorithm to Maximum Sum Subarray Problem
+                        </p>
+                        <p class="video-author">
+                            CS Dojo
+                        </p>
+                        <p class="video-stats">
+                            519k views &#183; 5 years ago
+                        </p>
+                    </div>  
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-6.webp" alt="">
+                    <div class="video-time">19:59</div>
+                </div>
+                <div class="channel-picture-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="thumbnails/profile-6.jpeg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Anything You Can Fit In The Circle I’ll Pay For
+                        </p>
+                        <p class="video-author">
+                            MrBeast
+                        </p>
+                        <p class="video-stats">
+                            141M views &#183; 1 years ago
+                        </p>
+                    </div>  
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-7.webp" alt="">
+                    <div class="video-time">35:32</div>
+                </div>
+                <div class="channel-picture-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="thumbnails/profile-7.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            WELCOME TO CALL OF DUTY MODERN WARFARE 3
+                        </p>
+                        <p class="video-author">
+                            Techno Gamerz
+                        </p>
+                        <p class="video-stats">
+                            3.2M views &#183; 1 day ago
+                        </p>
+                    </div>  
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-8.webp" alt="">
+                    <div class="video-time">8:27</div>
+                </div>
+                <div class="channel-picture-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="thumbnails/profile-8.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            This is How Hackers Crack Passwords! (Don't Try)
+                        </p>
+                        <p class="video-author">
+                            CodeWithHarry
+                        </p>
+                        <p class="video-stats">
+                            76k views &#183; 3 days ago
+                        </p>
+                    </div>  
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-9.webp" alt="">
+                    <div class="video-time">4:01</div>
+                </div>
+                <div class="channel-picture-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="thumbnails/profile-9.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            One Direction-Night Changes
+                        </p>
+                        <p class="video-author">
+                            One-Direction
+                        </p>
+                        <p class="video-stats">
+                            800M views &#183; 9 years ago
+                        </p>
+                    </div>  
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-10.webp" alt="">
+                    <div class="video-time">40:52</div>
+                </div>
+                <div class="channel-picture-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="thumbnails/profile-10.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Ice Cream | Funny Episodes | Mr Bean Cartoon World
+                        </p>
+                        <p class="video-author">
+                            Mr Bean World
+                        </p>
+                        <p class="video-stats">
+                            83M views &#183; 5 years ago
+                        </p>
+                    </div>  
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-11.webp" alt="">
+                    <div class="video-time">40:52</div>
+                </div>
+                <div class="channel-picture-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="thumbnails/profile-11.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            हिंदी Oggy and the Cockroaches - Sports Fans (S04E26) - Hindi....
+                        </p>
+                        <p class="video-author">
+                            Oggy Hindi - हिन्दी
+
+                        </p>
+                        <p class="video-stats">
+                            208M views &#183; 5 years ago
+                        </p>
+                    </div>  
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail-12.webp" alt="">
+                    <div class="video-time">20:17</div>
+                </div>
+                <div class="channel-picture-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="thumbnails/profile-12.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Taarak Mehta Ka Ooltah Chashmah | तारक मेहता का उल्टा चश्मा | Episode 202 | 7th September, 2020
+                        </p>
+                        <p class="video-author">
+                            Sony Pal
+                        </p>
+                        <p class="video-stats">
+                            14M views &#183; 3 years ago
+                        </p>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </main>  
+</body>
+</html>
